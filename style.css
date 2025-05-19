@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+}
+
+header h1 {
+  color: #61dafb;
+  margin-bottom: 10px;
+}
+
+.github-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 10px;
+  background-color: #191919;
+}
+
+.github-stats iframe {
+  height: 200px;
+  width: 350px;
+}
+
+.skills {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+}
+
+.skills h2 {
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.skills .icons img {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  transition: transform 0.2s;
+}
+
+.skills .icons img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #191919;
+}
+
+footer h2 {
+  margin-bottom: 15px;
+  color: #61dafb;
+}
+
+footer .social a {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+footer .social a:hover {
+  background-color: #555;
+}
